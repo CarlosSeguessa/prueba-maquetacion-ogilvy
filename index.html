@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./src/styles/main.css" />
+    <title>qualabs</title>
+  </head>
+
+  <body>
+    <header
+      class="w-full flex justify-between py-2 px-4 items-center fixed top-0 bg-white z-30 sm:px-16 xl:px-28"
+    >
+      <img
+        class="w-36 h-14"
+        src="./src/assets/svg/Home-Logo.svg"
+        alt="qualabs logo"
+      />
+      <nav>
+        <!-- mobile menu -->
+        <div class="lg:hidden">
+          <button class="flex items-center">
+            <img
+              class="h-7"
+              src="./src/assets/svg/hamburguer-menu.svg"
+              alt="menu"
+            />
+          </button>
+        </div>
+
+        <!-- desktop menu -->
+        <ul
+          class="hidden lg:flex text-sm font-bold text-primary-green font-poppins sm:items-center"
+        >
+          <li
+            class="mr-9 border-b-2 border-transparent hover:border-b-2 hover:border-secondary-orange-400 hover:text-secondary-orange-400 transition-all duration-300"
+          >
+            <a href="#">Why us</a>
+          </li>
+          <li
+            class="mr-9 border-b-2 border-transparent hover:border-b-2 hover:border-secondary-orange-400 hover:text-secondary-orange-400 transition-all duration-300"
+          >
+            <a href="#">Services</a>
+          </li>
+          <li
+            class="mr-9 border-b-2 border-secondary-orange-400 text-secondary-orange-400"
+          >
+            <a href="#">Our Work</a>
+          </li>
+          <li
+            class="mr-9 border-b-2 border-transparent hover:border-b-2 hover:border-secondary-orange-400 hover:text-secondary-orange-400 transition-all duration-300"
+          >
+            <a href="#">Our Team</a>
+          </li>
+          <li
+            class="mr-9 border-b-2 border-transparent hover:border-b-2 hover:border-secondary-orange-400 hover:text-secondary-orange-400 transition-all duration-300"
+          >
+            <a href="#">Community</a>
+          </li>
+          <li
+            class="mr-9 border-b-2 border-transparent hover:border-b-2 hover:border-secondary-orange-400 hover:text-secondary-orange-400 transition-all duration-300"
+          >
+            <a href="#">Careers</a>
+          </li>
+          <li
+            class="mr-9 border-b-2 border-transparent hover:border-b-2 hover:border-secondary-orange-400 hover:text-secondary-orange-400 transition-all duration-300"
+          >
+            <a href="#">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <img
+      class="hidden absolute lg:flex top-3 lg:top-32 w-full z-10"
+      src="./src/assets/img/Frame-629.png"
+      alt=""
+    />
+    <main class="mt-32 w-full h-full px-4 xl:px-28">
+      <img
+        class="absolute top-10 left-1 z-10 lg:hidden"
+        src="./src/assets/svg/circle-green.svg"
+        alt="green circle"
+      />
+      <h1
+        class="font-rubik font-bold text-4xl lg:text-5xl lg:mt-56 text-primary-green first-line:text-secondary-orange-400 z-20"
+      >
+        <span class="block">Cloud-Based</span>
+        <span class="block">Video Solution</span>
+        <span>Prototype</span>
+      </h1>
+      <img
+        class="absolute right-0 top-44 z-10"
+        src="./src/assets/svg/circle-orange.svg"
+        alt="orange circle"
+      />
+
+      <section
+        class="grid sm:items-center lg:gap-x-8 sm:gap-x-16 sm:gap-y-7 mt-60 sm:grid-cols-2 auto-rows-min sm:place-content-center"
+      >
+        <!-- challenge start -->
+        <article class="row-start-1 xl:px-16">
+          <div class="flex items-center">
+            <object
+              data="./src/assets/svg/Flagicon.svg"
+              type="image/svg+xml"
+            ></object>
+            <h2 class="ml-6 text-3xl font-rubik font-bold text-primary-green">
+              Challenge
+            </h2>
+          </div>
+          <p
+            class="sm:row-start-2 font-poppins font-normal leading-7 mt-7 sm:mt-6"
+          >
+            Verimatrix needed to rapidly prototype a new cloud-based solution to
+            help customers, partners, investors and our own employees understand
+            the concept and see it “in action”, and allow us to gauge market
+            interest and feedback.
+          </p>
+        </article>
+        <!-- challenge end -->
+        <div
+          class="sm:row-start-1 sm:col-start-2 sm:place-content-center sm:flex sm:items-center"
+        >
+          <img
+            class="w-64 h-16 mt-16"
+            src="./src/assets/img/Logo-verimatrix.jpg"
+            alt="Verimatrix company logo"
+          />
+        </div>
+        <div
+          class="font-poppins leading-7 mt-20 sm:mt-0 sm:row-start-3 sm:col-start-2"
+        >
+          <p class="font-normal">
+            The solution required integrating some of our own products, partner
+            solutions, and delivering everything on Amazon Web Services. The
+            prototype needed to be built “the right way” from the beginning
+            because we knew that shortly after the prototype was shown, we would
+            immediately need to start developing the full product on the
+            framework we built due to customer demand once they saw it.
+          </p>
+          <p class="font-normal mt-7">
+            This code and infrastructure would also need to be inherited by our
+            Engineering team and integrated into core products, while leaving
+            the door open for potential future development with Qualabs, so it
+            had to meet our Engineering team’s strict coding and environmental
+            requirements. And to add a further challenge, we had only six weeks
+            to get it done before a major industry event.
+          </p>
+        </div>
+        <!-- solution start -->
+        <div
+          class="w-full flex items-center justify-center sm:my-4 mt-16 sm:row-start-3 sm:col-start-1 sm:place-content-center sm:items-center sm:hidden"
+        >
+          <img
+            class="sm:w-auto w-full"
+            src="./src/assets/img/Image-team.png"
+            alt=""
+          />
+        </div>
+        <div
+          class="w-full hidden items-center justify-center sm:my-4 mt-16 sm:row-start-3 sm:col-start-1 sm:place-content-center sm:items-center sm:flex"
+        >
+          <img
+            class="sm:w-auto w-full"
+            src="./src/assets/img/teamimg-desktop.png"
+            alt=""
+          />
+        </div>
+        <article
+          class="flex flex-col mt-12 sm:mt-0 sm:row-start-4 sm:col-start-1"
+        >
+          <div class="flex items-center">
+            <object
+              data="./src/assets/svg/lightIcon.svg"
+              type="image/svg+xml"
+            ></object>
+            <h2 class="ml-6 text-3xl font-rubik font-bold text-primary-green">
+              Solution
+            </h2>
+          </div>
+          <div
+            class="font-poppins leading-7 mt-7 sm:mt-6 sm:row-start-5 sm:col-start-1"
+          >
+            <p class="font-normal">
+              Verimatrix reached out to Qualabs to assist with the rapid
+              prototyping having seen examples of some of the other video-based
+              applications they had developed.
+            </p>
+            <p class="font-normal mt-7 sm:mt-7">
+              We delineated which pieces would be worked on by Verimatrix core
+              teams, and which pieces would be worked on by Qualabs, and worked
+              with them in an agile methodology to develop core use cases, APIs
+              integration, and UI/UX requirements, and then quickly iterate on
+              different ideas, designs and workflows.
+            </p>
+            <p class="font-normal mt-7 sm:mt-7">
+              There were daily check-ins, and each week we would have a
+              team-to-team scrum to ensure we were on the right path and keeping
+              our communications in sync during leading up to an immovable
+              deadline, which always has the potential for misunderstanding,
+              miscommunication, duplication of effort, and missing the target.
+            </p>
+          </div>
+        </article>
+        <div class="w-full sm:hidden">
+          <div class="relative flex justify-center mt-20 sm:mt-0">
+            <img
+              class="absolute right-0 sm z-10"
+              src="./src/assets/svg/filled-green-circle.svg"
+              alt="filled-green-circle"
+            />
+            <img
+              class="w-full sm:h-[483px] sm:w-auto z-20"
+              src="./src/assets/img/Imge-pexels.png"
+              alt="Man typing in a computer"
+            />
+          </div>
+        </div>
+        <div
+          class="relative justify-center mt-20 sm:mt-3 w-full hidden sm:row-start-4 sm:col-start-2 sm:flex items-center"
+        >
+          <img
+            class="absolute right-0 sm z-10 sm:hidden"
+            src="./src/assets/svg/filled-green-circle.svg"
+            alt="filled-green-circle"
+          />
+          <img
+            class="w-full sm:w-auto z-20"
+            src="./src/assets/img/mantyping-desktop30.png"
+            alt="Man typing in a computer"
+          />
+        </div>
+        <!-- solution end -->
+        <!-- results start -->
+        <article
+          class="flex flex-col mt-12 sm:mt-6 sm:row-start-6 sm:col-start-2"
+        >
+          <div class="flex items-center">
+            <object
+              data="./src/assets/svg/resultsIcon.svg"
+              type="image/svg+xml"
+            ></object>
+            <h2 class="ml-6 text-3xl font-rubik font-bold text-primary-green">
+              Results
+            </h2>
+          </div>
+          <div
+            class="font-poppins flex flex-col items-center leading-7 mt-7 sm:mt-6 sm:col-start-2 sm:row-start-7"
+          >
+            <p class="font-normal">
+              Though we are based in California and they were based in Uruguay,
+              the timezones overlapped with us nicely to allow us to collaborate
+              in real-time.
+            </p>
+            <p class="font-normal mt-7 sm:mt-7">
+              We hit our deadline a few days early with plenty of time to do
+              some last minute cosmetic tweaks to really make the prototype
+              shine. Qualabs’ flexibility, adaptability, sense of urgency, and
+              willingness to go the extra mile made the process very easy to
+              work with them and get results that wowed our customers, partners,
+              investors and our own employees with fantastic ROI that allowed us
+              to validate the market opportunity.
+            </p>
+          </div>
+        </article>
+        <div
+          class="w-full flex justify-center items-center mt-16 sm:mt-0 sm:row-start-6 sm:col-start-1"
+        >
+          <img
+            src="./src/assets/img/Logos-lenguajes.jpg"
+            alt="logos of languages"
+          />
+        </div>
+        <!-- results end -->
+      </section>
+      <section
+        class="relative w-full flex justify-center lg:bg-[url('/src/assets/img/lazo-desktop.png')] bg-no-repeat bg-cover bg-center"
+      >
+        <div class="absolute z-10 pt-16 lg:hidden">
+          <object
+            data="./src/assets/svg/lazo.svg"
+            type="image/svg+xml"
+          ></object>
+        </div>
+        <div
+          class="relative z-20 flex mt-32 w-full justify-center gap-2 sm:gap-10 mb-20"
+        >
+          <!-- card -->
+          <div
+            class="relative z-20 uppercase w-56 h-36 sm:w-[311px] sm:h-[140px] sm:p-5 bg-white border-2 py-3 px-[10px] rounded-xl flex flex-col items-start shadow-xl lg:mt-36"
+          >
+            <a
+              href="#"
+              class="flex items-center border-b-2 border-transparent hover:border-b-2 hover:border-secondary-orange-400 hover:text-secondary-orange-400 transition-all duration-300"
+            >
+              <object
+                data="./src/assets/svg/arrow-left.svg"
+                type="image/svg+xml"
+              ></object>
+              <p class="ml-1 font-poppins">previous case</p>
+            </a>
+            <span
+              class="text-primary-green font-rubik font-bold sm:lowercase sm:first-letter:uppercase"
+            >
+              <span class="block"> content usage </span>
+              <span>analytics on devices</span>
+            </span>
+          </div>
+          <!--  -->
+
+          <!-- card -->
+          <div
+            class="uppercase w-56 h-36 sm:w-[311px] sm:h-[140px] sm:p-5 bg-white border-2 py-[10px] px-3 rounded-xl flex flex-col items-start shadow-xl lg:mt-36"
+          >
+            <a
+              href="#"
+              class="flex items-center border-b-2 border-transparent hover:border-b-2 hover:border-secondary-orange-400 hover:text-secondary-orange-400 transition-all duration-300"
+            >
+              <p class="mr-1 font-poppins">next case</p>
+              <object
+                class=""
+                data="./src/assets/svg/arrow-right.svg"
+                type="image/svg+xml"
+              ></object>
+            </a>
+            <span
+              class="text-primary-green font-rubik font-bold sm:lowercase sm:first-letter:uppercase"
+            >
+              end-to-end security integration
+            </span>
+          </div>
+          <!--  -->
+        </div>
+      </section>
+    </main>
+    <!-- footer -->
+    <footer
+      class="bottom-0 w-full bg-[url('/src/assets/img/vector5.png')] sm:bg-[url('/src/assets/img/vector5-desktop.jpg')] bg-cover lg:bg-fill bg-no-repeat pt-32 sm:bg-contain xl:bg-cover text-white sm:pt-52"
+    >
+      <div class="bg-primary-green w-full px-4 xl:px-36 sm:px-7">
+        <h1 class="font-rubik text-3xl lg:text-5xl font-bold">
+          Want to know more?
+        </h1>
+        <div
+          class="pt-[38px] pb-[40px] border-b-2 border-white border-opacity-25"
+        >
+          <a
+            href="#"
+            class="uppercase font-rubik bg-secondary-orange-400 py-[10px] px-5 w-60 h-10 gap-3 rounded-[32px]"
+          >
+            talk to our specialist!
+          </a>
+        </div>
+        <section class="flex flex-col lg:flex-row lg:justify-between w-full">
+          <div class="mt-14">
+            <object
+              data="./src/assets/svg/logoFooter.svg"
+              type="image/svg+xml"
+            ></object>
+            <div class="mt-9 font-poppins text-[#ADDED9] text-sm w-full">
+              <div class="flex">
+                <p class="font-bold">Email:</p>
+                <p class="ml-2">info@qualabs.com</p>
+              </div>
+              <div class="flex">
+                <p class="font-bold">Phone:</p>
+                <p class="ml-2">+598 2708 5252</p>
+              </div>
+              <div class="flex">
+                <p class="font-bold">Adress:</p>
+                <p class="ml-2">Av. Brasil 2371, Montevideo, Uruguay</p>
+              </div>
+            </div>
+          </div>
+          <nav class="mt-14">
+            <div
+              class="grid xl:grid-cols-5 lg:grid-cols-5 xl:grid-flow-row lg:ml-36"
+            >
+              <ul>
+                <li>
+                  <a
+                    href="#"
+                    class="mb-3 font-bold lg:col-start-1 lg:row-start-1"
+                    >Why us</a
+                  >
+                </li>
+              </ul>
+              <div
+                class="hidden lg:flex lg:flex-col lg:items-start xl:mr-9 lg:mr-6 lg:col-start-1 lg:row-start-2 lg:w-full"
+              >
+                <ul class="text-[#ADDED9] font-normal">
+                  <li>
+                    <a href="#">Our framework</a>
+                  </li>
+                  <li class="py-3">
+                    <a href="#">Benefits</a>
+                  </li>
+                  <li>
+                    <a href="#">Lorem Ipsum</a>
+                  </li>
+                </ul>
+              </div>
+              <ul>
+                <li>
+                  <a
+                    href="#"
+                    class="mb-3 font-bold lg:col-start-2 lg:row-start-1"
+                  >
+                    Services
+                  </a>
+                </li>
+              </ul>
+              <div
+                class="hidden lg:flex lg:flex-col lg:items-start lg:col-start-2 lg:row-start-2 xl:mr-9 lg:mr-6 lg:w-full"
+              >
+                <ul class="text-[#ADDED9] font-normal">
+                  <li>
+                    <a href="#">Lorem Ipsum</a>
+                  </li>
+                  <li class="py-3">
+                    <a href="#">Develo</a>
+                  </li>
+                </ul>
+              </div>
+              <ul>
+                <li>
+                  <a
+                    href="#"
+                    class="mb-3 font-bold lg:col-start-3 lg:row-start-1"
+                  >
+                    Our Work
+                  </a>
+                </li>
+              </ul>
+              <div
+                class="hidden lg:flex lg:flex-col lg:items-start xl:mr-9 lg:mr-6 lg:col-start-3 lg:row-start-2 lg:w-full"
+              >
+                <ul class="text-[#ADDED9] font-normal">
+                  <li>
+                    <a href="#">Lorem Ipsum</a>
+                  </li>
+                  <li class="py-3">
+                    <a href="#">Lorem Ipsum</a>
+                  </li>
+                </ul>
+              </div>
+
+              <ul>
+                <li>
+                  <a
+                    href="#"
+                    class="mb-3 font-bold lg:col-start-4 lg:row-start-1"
+                  >
+                    Our Team
+                  </a>
+                </li>
+              </ul>
+              <div
+                class="hidden lg:flex lg:flex-col lg:items-start xl:mr-9 lg:mr-6"
+              >
+                <ul class="text-[#ADDED9] font-normal">
+                  <li>
+                    <a href="#">Lorem Ipsum</a>
+                  </li>
+                </ul>
+              </div>
+              <ul>
+                <li>
+                  <a href="#" class="font-bold lg:col-start-5 lg:row-start-1">
+                    Contact
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </section>
+        <section class="pt-16 w-full">
+          <ul class="flex items-center w-full lg:justify-end">
+            <a href="https://www.linkedin.com/company/qualabs/" target="_blank">
+              <img
+                src="./src/assets/svg/linkedinIcon.svg"
+                alt="Linkedin icon"
+              />
+            </a>
+            <a
+              class="px-4"
+              href="https://www.instagram.com/qualabs/"
+              target="_blank"
+            >
+              <img src="./src/assets/svg/igIcon.svg" alt="Instagram icon" />
+            </a>
+            <a href="https://www.youtube.com/@qualabs193" target="_blank">
+              <img src="./src/assets/svg/youtubeIcon.svg" alt="Youtube icon" />
+            </a>
+          </ul>
+          <p class="mt-9 pb-32 lg:pb-0 font-normal lg:text-end">
+            © 2022 Qualabs. All rights reserved.
+          </p>
+        </section>
+      </div>
+    </footer>
+  </body>
+</html>
